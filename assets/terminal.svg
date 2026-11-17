@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="380" viewBox="0 0 820 380" role="img" aria-label="Animated terminal showing IT, DevOps and security commands">
+<style>
+text{font-family:'JetBrains Mono','Fira Code',Consolas,Menlo,monospace;font-size:15px;white-space:pre}
+.cur{animation:blink 1s step-end infinite}@keyframes blink{50%{opacity:0}}
+.scan{animation:scan 4s linear infinite}@keyframes scan{0%{transform:translateY(0)}100%{transform:translateY(380px)}}
+@keyframes l0{0%,3.12%{clip-path:inset(0 100% 0 0)}8.12%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l0{animation:l0 16.0s steps(40,end) infinite}@keyframes l1{0%,10.62%{clip-path:inset(0 100% 0 0)}12.50%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l1{animation:l1 16.0s steps(1,end) infinite}@keyframes l2{0%,18.12%{clip-path:inset(0 100% 0 0)}23.12%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l2{animation:l2 16.0s steps(40,end) infinite}@keyframes l3{0%,25.62%{clip-path:inset(0 100% 0 0)}27.50%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l3{animation:l3 16.0s steps(1,end) infinite}@keyframes l4{0%,33.12%{clip-path:inset(0 100% 0 0)}38.12%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l4{animation:l4 16.0s steps(40,end) infinite}@keyframes l5{0%,40.62%{clip-path:inset(0 100% 0 0)}42.50%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l5{animation:l5 16.0s steps(1,end) infinite}@keyframes l6{0%,48.12%{clip-path:inset(0 100% 0 0)}53.12%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l6{animation:l6 16.0s steps(40,end) infinite}@keyframes l7{0%,55.62%{clip-path:inset(0 100% 0 0)}57.50%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l7{animation:l7 16.0s steps(1,end) infinite}@keyframes l8{0%,63.12%{clip-path:inset(0 100% 0 0)}68.12%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l8{animation:l8 16.0s steps(40,end) infinite}@keyframes l9{0%,70.62%{clip-path:inset(0 100% 0 0)}72.50%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l9{animation:l9 16.0s steps(1,end) infinite}
+</style>
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3fb950" stop-opacity="0"/><stop offset="1" stop-color="#3fb950" stop-opacity=".08"/></linearGradient>
+<clipPath id="win"><rect width="820" height="380" rx="12"/></clipPath></defs>
+<g clip-path="url(#win)">
+<rect width="820" height="380" fill="#0d1117"/>
+<rect width="820" height="36" fill="#161b22"/>
+<circle cx="22" cy="18" r="6" fill="#ff5f56"/><circle cx="42" cy="18" r="6" fill="#ffbd2e"/><circle cx="62" cy="18" r="6" fill="#27c93f"/>
+<text x="410.0" y="23" fill="#8b949e" text-anchor="middle" style="font-size:13px">sopanha@thm — bash — 80×24</text>
+<text class="l0" x="24" y="70"><tspan fill="#58a6ff">sopanha@thm</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#d2a8ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">whoami</tspan></text>
+<text class="l1" x="24" y="98" fill="#8b949e">toek_sopanha  // IT Support · App Support · DevOps · Network · SecOps</text>
+<text class="l2" x="24" y="126"><tspan fill="#58a6ff">sopanha@thm</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#d2a8ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">nmap -sV -T4 10.10.13.37</tspan></text>
+<text class="l3" x="24" y="154" fill="#3fb950">22/tcp open ssh   80/tcp open http   443/tcp open https</text>
+<text class="l4" x="24" y="182"><tspan fill="#58a6ff">sopanha@thm</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#d2a8ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">docker compose up -d &amp;&amp; kubectl get pods</tspan></text>
+<text class="l5" x="24" y="210" fill="#3fb950">[+] web-app   Running   [+] siem-agent   Running</text>
+<text class="l6" x="24" y="238"><tspan fill="#58a6ff">sopanha@thm</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#d2a8ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">tail -f /var/log/auth.log | grep 'Failed password'</tspan></text>
+<text class="l7" x="24" y="266" fill="#f85149">[!] SOC ALERT: brute force from 10.10.66.6 -&gt; blocked by firewall</text>
+<text class="l8" x="24" y="294"><tspan fill="#58a6ff">sopanha@thm</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#d2a8ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">thm --status</tspan></text>
+<text class="l9" x="24" y="322" fill="#3fb950">[✓] TryHackMe: Pre Security · SOC Level 1 · Jr Penetration Tester</text>
+<rect class="cur" x="24" y="334" width="9" height="18" fill="#3fb950"/>
+<rect class="scan" x="0" y="-60" width="820" height="60" fill="url(#g)"/>
+</g>
+<rect x=".5" y=".5" width="819" height="379" rx="12" fill="none" stroke="#30363d"/>
+</svg>
