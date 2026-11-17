@@ -16,15 +16,9 @@
 
 ### `> whoami`
 
-```text
-name      : Toek Sopanha
-location  : Cambodia
-role      : IT Support Specialist [ 1+ yr ]  ->  aspiring Red Teamer
-education : 3rd-year university student
-focus     : offensive security · penetration testing · red teaming
-scope     : labs, CTFs & authorized targets only
-motto     : think like an attacker. defend like an engineer.
-```
+<p align="center">
+  <img src="assets/whoami.svg" width="100%" alt="Toek Sopanha — IT Support Specialist, aspiring Red Teamer, Cambodia. Labs, CTFs and authorized targets only."/>
+</p>
 
 ### `> cat methodology.txt`
 
@@ -40,14 +34,9 @@ motto     : think like an attacker. defend like an engineer.
 
 ### `> cat roadmap.txt`
 
-```text
-[x] foundation   it support · app support · windows/linux · active directory
-[x] network      tcp/ip · subnetting · cisco · vlan · dns       (cisco networking basics ✓)
-[~] ops          bash/powershell · docker · ci/cd · cloud basics
-[~] blue         siem · log analysis · alert triage             <- know the defender
-[>] red          recon · web exploitation · privesc · AD attacks <- current mission
-[ ] certs        eJPT -> PenTest+ -> OSCP -> CRTO
-```
+<p align="center">
+  <img src="assets/roadmap.svg" width="100%" alt="Roadmap: foundation and network done; ops, blue and red active; certs eJPT → PenTest+ → OSCP → CRTO queued"/>
+</p>
 
 ### `> ls ~/certs`
 
@@ -59,17 +48,8 @@ motto     : think like an attacker. defend like an engineer.
 ### `> thm --profile`
 
 <p align="center">
-  <a href="https://tryhackme.com/p/mrrlovermann1678"><img src="assets/thm.svg" width="49%" alt="TryHackMe profile mrrlovermann1678"/></a>
+  <a href="https://tryhackme.com/p/mrrlovermann1678"><img src="assets/thm.svg" width="100%" alt="TryHackMe profile mrrlovermann1678 and learning paths"/></a>
 </p>
-
-```text
-[~] pre-security             fundamentals     in progress
-[~] jr-penetration-tester    red team         in progress
-[ ] web-app-pentesting       red team         queued
-[ ] red-teaming              red team         queued
-[ ] offensive-pentesting     red team         queued
-[ ] soc-level-1              blue team        queued   <- know the defender
-```
 
 ### `> stats`
 
