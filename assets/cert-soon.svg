@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="190" viewBox="0 0 300 190" role="img" aria-label="More certifications in progress">
+<style>
+.t{font:700 21px 'Segoe UI','Inter',Helvetica,Arial,sans-serif;fill:#f0f6fc}
+.s{font:500 12px 'Segoe UI','Inter',Helvetica,Arial,sans-serif;fill:#8b949e}
+.m{font:600 11px 'JetBrains Mono','Fira Code',Consolas,Menlo,monospace;letter-spacing:1px}
+.in{animation:in .8s cubic-bezier(.22,1,.36,1) both}
+@keyframes in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.run{fill:none;stroke:#3fb950;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:171.5 781.1;animation:run 4s linear infinite}
+@keyframes run{to{stroke-dashoffset:-952.5}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite}
+@keyframes pulse{from{opacity:.7;transform:scale(1)}to{opacity:0;transform:scale(1.6)}}
+.shine{animation:shine 3s ease-in-out infinite}
+@keyframes shine{0%,40%{transform:translateX(-80px)}100%{transform:translateX(160px)}}
+.star{animation:tw 1.8s ease-in-out infinite}@keyframes tw{50%{opacity:.25}}
+.go{animation:go 1.4s ease-in-out infinite}@keyframes go{50%{transform:translateX(4px)}}
+.bar{animation:bar 3s ease-in-out infinite}
+@keyframes bar{0%{width:0}70%,100%{width:236px}}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#161b22"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+<radialGradient id="glow" cx=".15" cy=".2" r=".7"><stop offset="0" stop-color="#3fb950" stop-opacity=".18"/><stop offset="1" stop-color="#3fb950" stop-opacity="0"/></radialGradient>
+<linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+</defs>
+<rect x="1" y="1" width="298" height="188" rx="16" fill="url(#bg)" stroke="#30363d"/>
+<rect x="1" y="1" width="298" height="188" rx="16" fill="url(#glow)"/>
+<rect class="run" x="1.25" y="1.25" width="297.5" height="187.5" rx="16"/>
+<g class="in">
+<text x="20" y="40" class="m" fill="#3fb950">❯ NEXT TARGETS</text>
+<text x="20" y="72" class="t" style="font-size:18px">More loading…</text>
+<text x="20" y="98" class="s">CompTIA Security+ · CCNA</text>
+<text x="20" y="116" class="s">THM SOC Level 1 · Jr Pentester</text>
+<rect x="20" y="140" width="236" height="8" rx="4" fill="#21262d"/>
+<rect class="bar" x="20" y="140" width="236" height="8" rx="4" fill="#3fb950"/>
+<text x="20" y="172" class="m" fill="#484f58">STATUS: IN PROGRESS</text>
+<text x="280" y="172" class="m cur" fill="#3fb950" text-anchor="end">▌</text>
+<style>.cur{animation:blink 1s step-end infinite}@keyframes blink{50%{opacity:0}}</style></g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="190" viewBox="0 0 300 190" role="img" aria-label="Python 3 Certification – CodinGame, FEB 2025">
+<style>
+.t{font:700 21px 'Segoe UI','Inter',Helvetica,Arial,sans-serif;fill:#f0f6fc}
+.s{font:500 12px 'Segoe UI','Inter',Helvetica,Arial,sans-serif;fill:#8b949e}
+.m{font:600 11px 'JetBrains Mono','Fira Code',Consolas,Menlo,monospace;letter-spacing:1px}
+.in{animation:in .8s cubic-bezier(.22,1,.36,1) both}
+@keyframes in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.run{fill:none;stroke:#e3b341;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:171.5 781.1;animation:run 4s linear infinite}
+@keyframes run{to{stroke-dashoffset:-952.5}}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.4s ease-out infinite}
+@keyframes pulse{from{opacity:.7;transform:scale(1)}to{opacity:0;transform:scale(1.6)}}
+.shine{animation:shine 3s ease-in-out infinite}
+@keyframes shine{0%,40%{transform:translateX(-80px)}100%{transform:translateX(160px)}}
+.star{animation:tw 1.8s ease-in-out infinite}@keyframes tw{50%{opacity:.25}}
+.go{animation:go 1.4s ease-in-out infinite}@keyframes go{50%{transform:translateX(4px)}}
+.bar{animation:bar 3s ease-in-out infinite}
+@keyframes bar{0%{width:0}70%,100%{width:236px}}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#161b22"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+<radialGradient id="glow" cx=".15" cy=".2" r=".7"><stop offset="0" stop-color="#e3b341" stop-opacity=".18"/><stop offset="1" stop-color="#e3b341" stop-opacity="0"/></radialGradient>
+<linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+</defs>
+<rect x="1" y="1" width="298" height="188" rx="16" fill="url(#bg)" stroke="#30363d"/>
+<rect x="1" y="1" width="298" height="188" rx="16" fill="url(#glow)"/>
+<rect class="run" x="1.25" y="1.25" width="297.5" height="187.5" rx="16"/>
+<g class="in">
+<circle class="pulse" cx="52" cy="62" r="32" fill="none" stroke="#e3b341" stroke-width="2"/>
+<circle cx="52" cy="62" r="32" fill="#0d1117" stroke="#e3b341" stroke-opacity=".5"/>
+<image href="data:image/svg+xml;base64,CiAgPHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCAyNTYgMjU2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiPgogICAgCiAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwgMCkiPgogICAgICAgICAgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+PHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIGZpbGw9IiMyNDI5MzgiIHJ4PSI2MCIvPjxwYXRoIGZpbGw9InVybCgjcGFpbnQwX2xpbmVhcl8yXzQ3KSIgZD0iTTEyNy4yNzkgMjlDNzYuNTA2NiAyOSA3OS42NzcyIDUxLjAxOCA3OS42NzcyIDUxLjAxOEw3OS43MzM4IDczLjgyODRIMTI4LjE4NVY4MC42NzcySDYwLjQ4OTNDNjAuNDg5MyA4MC42NzcyIDI4IDc2Ljk5MjYgMjggMTI4LjIyMkMyOCAxNzkuNDUyIDU2LjM1NzMgMTc3LjYzNiA1Ni4zNTczIDE3Ny42MzZINzMuMjgxMlYxNTMuODYzQzczLjI4MTIgMTUzLjg2MyA3Mi4zNjkgMTI1LjUwNiAxMDEuMTg2IDEyNS41MDZIMTQ5LjI0QzE0OS4yNCAxMjUuNTA2IDE3Ni4yMzkgMTI1Ljk0MiAxNzYuMjM5IDk5LjQxMjNWNTUuNTQ2MUMxNzYuMjM5IDU1LjU0NjEgMTgwLjMzOCAyOSAxMjcuMjc5IDI5Wk0xMDAuNTYzIDQ0LjMzOUMxMDUuMzg0IDQ0LjMzOSAxMDkuMjggNDguMjM1MSAxMDkuMjggNTMuMDU1NkMxMDkuMjggNTcuODc2MSAxMDUuMzg0IDYxLjc3MjMgMTAwLjU2MyA2MS43NzIzQzk1Ljc0MjYgNjEuNzcyMyA5MS44NDY1IDU3Ljg3NjEgOTEuODQ2NSA1My4wNTU2QzkxLjg0NjUgNDguMjM1MSA5NS43NDI2IDQ0LjMzOSAxMDAuNTYzIDQ0LjMzOVoiLz48cGF0aCBmaWxsPSJ1cmwoI3BhaW50MV9saW5lYXJfMl80NykiIGQ9Ik0xMjguNzIxIDIyNy45NThDMTc5LjQ5MyAyMjcuOTU4IDE3Ni4zMjMgMjA1Ljk0MSAxNzYuMzIzIDIwNS45NDFMMTc2LjI2NiAxODMuMTNIMTI3LjgxNVYxNzYuMjgxSDE5NS41MTFDMTk1LjUxMSAxNzYuMjgxIDIyOCAxNzkuOTY2IDIyOCAxMjguNzM2QzIyOCA3Ny41MDYyIDE5OS42NDMgNzkuMzIzIDE5OS42NDMgNzkuMzIzSDE4Mi43MTlWMTAzLjA5NkMxODIuNzE5IDEwMy4wOTYgMTgzLjYzMSAxMzEuNDUzIDE1NC44MTQgMTMxLjQ1M0gxMDYuNzZDMTA2Ljc2IDEzMS40NTMgNzkuNzYwNyAxMzEuMDE2IDc5Ljc2MDcgMTU3LjU0NlYyMDEuNDEyQzc5Ljc2MDcgMjAxLjQxMiA3NS42NjE1IDIyNy45NTggMTI4LjcyMSAyMjcuOTU4Wk0xNTUuNDM3IDIxMi42MTlDMTUwLjYxNiAyMTIuNjE5IDE0Ni43MiAyMDguNzIzIDE0Ni43MiAyMDMuOTAzQzE0Ni43MiAxOTkuMDgyIDE1MC42MTYgMTk1LjE4NiAxNTUuNDM3IDE5NS4xODZDMTYwLjI1NyAxOTUuMTg2IDE2NC4xNTQgMTk5LjA4MiAxNjQuMTU0IDIwMy45MDNDMTY0LjE1NCAyMDguNzIzIDE2MC4yNTcgMjEyLjYxOSAxNTUuNDM3IDIxMi42MTlaIi8+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJwYWludDBfbGluZWFyXzJfNDciIHgxPSI0Ny4yMiIgeDI9IjE0Ni4zMzMiIHkxPSI0Ni44OTYiIHkyPSIxNDUuMDIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjMzg3RUI4Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMzY2OTk0Ii8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9InBhaW50MV9saW5lYXJfMl80NyIgeDE9IjEwOC4wNTYiIHgyPSIyMTQuNDkyIiB5MT0iMTA5LjkwNSIgeTI9IjIxMC41MjIiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBzdG9wLWNvbG9yPSIjRkZFMDUyIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjRkZDMzMxIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PC9zdmc+CiAgICAgICAgPC9nPgogICAgICAgIAogIDwvc3ZnPgogIA==" x="32" y="42" width="40" height="40"/>
+<text x="238" y="34" class="star" style="animation-delay:0.0s" fill="#e3b341" font-size="14">★</text><text x="254" y="34" class="star" style="animation-delay:0.3s" fill="#e3b341" font-size="14">★</text><text x="270" y="34" class="star" style="animation-delay:0.6s" fill="#e3b341" font-size="14">★</text>
+<text x="98" y="58" class="t">Python 3</text>
+<text x="98" y="78" class="s">Certification</text>
+<line x1="20" y1="112" x2="280" y2="112" stroke="#21262d"/>
+<text x="20" y="134" class="m" fill="#e3b341">CODINGAME</text>
+<text x="20" y="152" class="m" fill="#484f58">ISSUED FEB 2025</text>
+<g transform="translate(20 160)">
+  <svg width="111" height="22"><rect width="100%" height="22" rx="11" fill="#3fb950" fill-opacity=".15" stroke="#3fb950" stroke-opacity=".6"/>
+  <text x="9" y="15" class="m" fill="#3fb950" style="font-size:10px">✓ WITH HONORS</text>
+  <rect class="shine" x="0" y="0" width="40" height="22" fill="url(#sh)"/></svg>
+</g>
+<text x="280" y="175" class="m go" fill="#8b949e" text-anchor="end">VIEW →</text></g>
+</svg>
