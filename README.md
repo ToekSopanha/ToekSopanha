@@ -121,15 +121,11 @@ motto:     "Keep systems up, keep attackers out."
 ## 📜 Certifications
 
 <p align="center">
-  <a href="image/Networking%20Basic.pdf"><img src="assets/cert-cisco.svg" width="32%" alt="Cisco Networking Basics"/></a>
-  <a href="image/Python%203.pdf"><img src="assets/cert-python.svg" width="32%" alt="Python 3 Certification"/></a>
-  <a href="image/JavaScript.pdf"><img src="assets/cert-javascript.svg" width="32%" alt="JavaScript Certification"/></a>
-  <a href="image/C%2B%2B.pdf"><img src="assets/cert-cpp.svg" width="32%" alt="C++ Certification"/></a>
-  <a href="image/C%23.pdf"><img src="assets/cert-csharp.svg" width="32%" alt="C# Certification"/></a>
-  <img src="assets/cert-soon.svg" width="32%" alt="More certifications in progress"/>
+  <a href="image/Networking%20Basic.pdf"><img src="assets/cert-cisco.svg" width="45%" alt="Cisco Networking Basics"/></a>
+  <img src="assets/cert-soon.svg" width="45%" alt="More certifications in progress"/>
 </p>
 
-<p align="center"><sub>👆 Click any card to open the certificate</sub></p>
+<p align="center"><sub>👆 Click the Cisco card to open the certificate</sub></p>
 
 <!-- ===================== STATS ===================== -->
 ## 📊 GitHub Stats
