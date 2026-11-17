@@ -1,29 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="350" viewBox="0 0 880 350" role="img" aria-label="Animated terminal">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="350" viewBox="0 0 880 350" role="img" aria-label="Animated terminal: a TryHackMe lab from recon to root">
 <style>
 text{font-family:'JetBrains Mono','Fira Code','SF Mono',Consolas,Menlo,monospace}
 .cur{animation:blink 1s step-end infinite}@keyframes blink{50%{opacity:0}}
-.scan{animation:scan 5s linear infinite}
 .fade{animation:fade .8s ease-out both}@keyframes fade{from{opacity:0}to{opacity:1}}
-text{font-size:14px;white-space:pre}@keyframes l0{0%,3.12%{clip-path:inset(0 100% 0 0)}8.12%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l0{animation:l0 16.0s steps(40,end) infinite}@keyframes l1{0%,10.62%{clip-path:inset(0 100% 0 0)}12.19%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l1{animation:l1 16.0s steps(1,end) infinite}@keyframes l2{0%,18.12%{clip-path:inset(0 100% 0 0)}23.12%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l2{animation:l2 16.0s steps(40,end) infinite}@keyframes l3{0%,25.62%{clip-path:inset(0 100% 0 0)}27.19%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l3{animation:l3 16.0s steps(1,end) infinite}@keyframes l4{0%,33.12%{clip-path:inset(0 100% 0 0)}38.12%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l4{animation:l4 16.0s steps(40,end) infinite}@keyframes l5{0%,40.62%{clip-path:inset(0 100% 0 0)}42.19%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l5{animation:l5 16.0s steps(1,end) infinite}@keyframes l6{0%,48.12%{clip-path:inset(0 100% 0 0)}53.12%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l6{animation:l6 16.0s steps(40,end) infinite}@keyframes l7{0%,55.62%{clip-path:inset(0 100% 0 0)}57.19%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l7{animation:l7 16.0s steps(1,end) infinite}@keyframes l8{0%,63.12%{clip-path:inset(0 100% 0 0)}68.12%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l8{animation:l8 16.0s steps(40,end) infinite}@keyframes l9{0%,70.62%{clip-path:inset(0 100% 0 0)}72.19%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l9{animation:l9 16.0s steps(1,end) infinite}</style>
+.scan{animation:scan 5s linear infinite}
+text{font-size:14px;white-space:pre}@keyframes l0{0%,3.12%{clip-path:inset(0 100% 0 0)}8.12%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l0{animation:l0 16.0s steps(40,end) infinite}@keyframes l1{0%,10.62%{clip-path:inset(0 100% 0 0)}12.19%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l1{animation:l1 16.0s steps(1,end) infinite}@keyframes l2{0%,18.12%{clip-path:inset(0 100% 0 0)}23.12%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l2{animation:l2 16.0s steps(40,end) infinite}@keyframes l3{0%,25.62%{clip-path:inset(0 100% 0 0)}27.19%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l3{animation:l3 16.0s steps(1,end) infinite}@keyframes l4{0%,33.12%{clip-path:inset(0 100% 0 0)}38.12%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l4{animation:l4 16.0s steps(40,end) infinite}@keyframes l5{0%,40.62%{clip-path:inset(0 100% 0 0)}42.19%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l5{animation:l5 16.0s steps(1,end) infinite}@keyframes l6{0%,48.12%{clip-path:inset(0 100% 0 0)}53.12%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l6{animation:l6 16.0s steps(40,end) infinite}@keyframes l7{0%,55.62%{clip-path:inset(0 100% 0 0)}57.19%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l7{animation:l7 16.0s steps(1,end) infinite}@keyframes l8{0%,63.12%{clip-path:inset(0 100% 0 0)}68.12%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l8{animation:l8 16.0s steps(40,end) infinite}@keyframes l9{0%,70.62%{clip-path:inset(0 100% 0 0)}72.19%,94%{clip-path:inset(0 0 0 0)}100%{clip-path:inset(0 100% 0 0)}}.l9{animation:l9 16.0s steps(1,end) infinite}
+@keyframes scan{from{transform:translateY(-40px)}to{transform:translateY(390px)}}</style>
 <defs><linearGradient id="sl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".07"/></linearGradient>
-<pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#fff" stroke-opacity=".05"/></pattern><clipPath id="win"><rect width="880" height="350" rx="6"/></clipPath></defs>
-<g clip-path="url(#win)">
+<pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#fff" stroke-opacity=".05"/></pattern></defs>
 <rect width="880" height="350" fill="#000000"/>
+
+
+<clipPath id="win"><rect width="880" height="350" rx="6"/></clipPath>
+<g clip-path="url(#win)">
 <rect width="880" height="32" fill="#0c0c0c"/><rect y="32" width="880" height="1" fill="#262626"/>
-<text x="20" y="21" fill="#555555" style="font-size:12px">[ ● ● ● ]</text>
-<text x="440.0" y="21" fill="#555555" text-anchor="middle" style="font-size:12px">root@sopanha: ~ — ssh — 80×24</text>
-<text class="l0" x="24" y="66"><tspan fill="#555555">root@sopanha:~# </tspan><tspan fill="#ffffff">whoami</tspan></text>
-<text class="l1" x="24" y="92" fill="#9a9a9a">toek_sopanha :: it-support | app-support | devops | network | secops</text>
-<text class="l2" x="24" y="118"><tspan fill="#555555">root@sopanha:~# </tspan><tspan fill="#ffffff">nmap -sV -T4 10.10.13.37</tspan></text>
-<text class="l3" x="24" y="144" fill="#9a9a9a">22/tcp  open  ssh     80/tcp  open  http     443/tcp  open  https</text>
-<text class="l4" x="24" y="170"><tspan fill="#555555">root@sopanha:~# </tspan><tspan fill="#ffffff">docker compose up -d &amp;&amp; kubectl get pods</tspan></text>
-<text class="l5" x="24" y="196" fill="#9a9a9a">web-app      1/1   Running        siem-agent   1/1   Running</text>
-<text class="l6" x="24" y="222"><tspan fill="#555555">root@sopanha:~# </tspan><tspan fill="#ffffff">grep 'Failed password' /var/log/auth.log | wc -l</tspan></text>
-<text class="l7" x="24" y="248" fill="#ffffff" font-weight="700">[!] 1337 failed logins from 10.10.66.6 -&gt; ip blocked. incident logged.</text>
-<text class="l8" x="24" y="274"><tspan fill="#555555">root@sopanha:~# </tspan><tspan fill="#ffffff">thm --whoami</tspan></text>
-<text class="l9" x="24" y="300" fill="#ffffff" font-weight="700">[+] tryhackme :: pre-security · soc-level-1 · jr-penetration-tester</text>
+<text x="20" y="21" fill="#555555" style="font-size:12px">[ <tspan fill="#ff2b2b">●</tspan> ● ● ]</text>
+<text x="440.0" y="21" fill="#555555" text-anchor="middle" style="font-size:12px">root@kali: ~ — engagement: thm-lab — 80×24</text>
+<text class="l0" x="24" y="66"><tspan fill="#555555">root@kali:~# </tspan><tspan fill="#ffffff">nmap -sC -sV -p- 10.10.13.37</tspan></text>
+<text class="l1" x="24" y="92" fill="#9a9a9a">[+] 22/ssh   80/http   445/smb   -&gt; 3 open ports</text>
+<text class="l2" x="24" y="118"><tspan fill="#555555">root@kali:~# </tspan><tspan fill="#ffffff">gobuster dir -u http://10.10.13.37 -w common.txt</tspan></text>
+<text class="l3" x="24" y="144" fill="#9a9a9a">[+] /admin (301)   /uploads (301)   /backup.zip (200)</text>
+<text class="l4" x="24" y="170"><tspan fill="#555555">root@kali:~# </tspan><tspan fill="#ffffff">nc -lvnp 4444</tspan></text>
+<text class="l5" x="24" y="196" fill="#ffffff" font-weight="700">[+] connection received from 10.10.13.37 -&gt; shell as www-data</text>
+<text class="l6" x="24" y="222"><tspan fill="#555555">www-data@target:~$ </tspan><tspan fill="#ffffff">sudo -l</tspan></text>
+<text class="l7" x="24" y="248" fill="#ffffff" font-weight="700">[!] (root) NOPASSWD: /usr/bin/find   -&gt; gtfobins says hi</text>
+<text class="l8" x="24" y="274"><tspan fill="#ff2b2b">root@target:~# </tspan><tspan fill="#ffffff">cat /root/root.txt</tspan></text>
+<text class="l9" x="24" y="300" fill="#ff2b2b" font-weight="700">THM{th1nk_l1k3_4n_4tt4ck3r}   [ machine pwned ]</text>
 <rect class="cur" x="24" y="312" width="9" height="16" fill="#ffffff"/>
-<style>@keyframes scan{from{transform:translateY(-40px)}to{transform:translateY(390px)}}</style><rect class="scan" width="880" height="40" fill="url(#sl)"/>
 </g>
 <rect x=".5" y=".5" width="879" height="349" rx="6" fill="none" stroke="#333"/>
+<rect class="scan" width="880" height="40" fill="url(#sl)"/>
 </svg>

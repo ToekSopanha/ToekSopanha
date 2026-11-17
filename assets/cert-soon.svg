@@ -1,29 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="420" height="200" viewBox="0 0 420 200" role="img" aria-label="More certifications in progress">
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="200" viewBox="0 0 420 200" role="img" aria-label="Next certification targets: eJPT, PenTest+, OSCP, CRTO">
 <style>
 text{font-family:'JetBrains Mono','Fira Code','SF Mono',Consolas,Menlo,monospace}
 .cur{animation:blink 1s step-end infinite}@keyframes blink{50%{opacity:0}}
-.scan{animation:scan 5s linear infinite}
 .fade{animation:fade .8s ease-out both}@keyframes fade{from{opacity:0}to{opacity:1}}
+.scan{animation:scan 5s linear infinite}
 
-.run{fill:none;stroke:#fff;stroke-width:2;stroke-dasharray:148 1084;animation:run 5s linear infinite}
+.run{fill:none;stroke-width:2;stroke-dasharray:148 1084;animation:run 5s linear infinite}
 @keyframes run{to{stroke-dashoffset:-1232}}
 .bar{animation:bar 3.5s steps(20,end) infinite}@keyframes bar{from{width:0}80%,to{width:360px}}
 .go{animation:go 1.4s ease-in-out infinite}@keyframes go{50%{transform:translateX(4px)}}
-</style>
+
+@keyframes scan{from{transform:translateY(-40px)}to{transform:translateY(240px)}}</style>
 <defs><linearGradient id="sl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".07"/></linearGradient>
 <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#fff" stroke-opacity=".05"/></pattern></defs>
 <rect width="420" height="200" fill="#000000"/>
 <rect width="420" height="200" fill="url(#grid)"/>
-<rect x="1" y="1" width="418" height="198" fill="none" stroke="#333"/>
-<rect class="run" x="1" y="1" width="418" height="198"/>
-<g class="fade">
-<text x="30" y="40" fill="#555555" font-size="11" letter-spacing="2">QUEUE://NEXT</text>
-<text x="390" y="40" fill="#9a9a9a" font-size="11" text-anchor="end">[ IN PROGRESS ]</text>
-<text x="30" y="80" fill="#ffffff" font-size="20" font-weight="800">Loading next certs<tspan class="cur">_</tspan></text>
-<text x="30" y="104" fill="#9a9a9a" font-size="12">CompTIA Security+ · CCNA · THM SOC L1 · Jr PT</text>
+
+<rect x="1" y="1" width="418" height="198" fill="none" stroke="#333"/><rect class="run" x="1" y="1" width="418" height="198" stroke="#ff2b2b"/><g class="fade">
+<text x="30" y="40" fill="#555555" font-size="11" letter-spacing="2">QUEUE://NEXT_TARGETS</text>
+<text x="390" y="40" fill="#ff2b2b" font-size="11" font-weight="700" text-anchor="end">[ IN PROGRESS ]</text>
+<text x="30" y="80" fill="#ffffff" font-size="20" font-weight="800">Loading red team certs<tspan class="cur" fill="#ff2b2b">_</tspan></text>
+<text x="30" y="104" fill="#9a9a9a" font-size="12">eJPT  →  PenTest+  →  OSCP  →  CRTO</text>
 <rect x="30" y="124" width="360" height="10" fill="none" stroke="#444"/>
-<rect class="bar" x="30" y="124" width="360" height="10" fill="#fff"/>
+<rect class="bar" x="30" y="124" width="360" height="10" fill="#ff2b2b"/>
 <rect x="30" y="148" width="360" height="1" fill="#262626"/>
 <text x="30" y="174" fill="#555555" font-size="11" letter-spacing="1">STATUS: GRINDING ON TRYHACKME</text></g>
-<style>@keyframes scan{from{transform:translateY(-40px)}to{transform:translateY(240px)}}</style><rect class="scan" width="420" height="40" fill="url(#sl)"/>
+<rect class="scan" width="420" height="40" fill="url(#sl)"/>
 </svg>
